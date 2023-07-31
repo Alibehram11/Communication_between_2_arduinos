@@ -1,0 +1,32 @@
+list of materials:
+
+Arduino Nano/Uno x2
+NRF24L01 x2
+NRF24L01 Carrier Card x2
+Jumper cables
+
+
+        
+
+
+The circuit we will use for both the receiver and the transmitter is the same. 
+We specify the receiver or transmitter status of the modules in the codes.
+
+NRF24L01	      Arduino Uno/Nano
+VCC	            5V 
+GND	            GND
+CS	            10
+CE	            9
+MOSI	          11
+MISO	          12
+SCK	            13
+
+
+  
+Since SCK, MISO and MOSI pins are related to SPI communication, they may differ according to the Arduino type.
+Therefore, do not forget to take a look at this table while installing the circuit.
+
+                MOSI	  MISO	    SCK
+Arduino Uno	     11	     12	      13
+Arduino Nano	   11	     12	      13
+Arduino Mega	   51	     50	      52
