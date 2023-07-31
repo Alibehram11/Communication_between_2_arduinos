@@ -1,0 +1,31 @@
+### Türkçe ###
+
+Örneğin, NRF24L01 gibi uygun maliyetli ve popüler bir kablosuz iletişim modülü bu amaç için tercih edilebilir.
+NRF24L01, Arduino ile uyumludur ve SPI protokolünü kullanarak iletişim sağlar.
+
+Yukarıdaki örnek, "NRF24L01" kütüphanesini kullanarak iki Arduino arasında kablosuz iletişimi sağlar.
+Verici Arduino #1, "Merhaba Arduino #2!" mesajını her saniyede bir Alıcı Arduino #2'ye gönderir.
+Alıcı Arduino #2, mesajı alır ve Seri Monitör'e yazdırır.
+
+Kodu çalıştırmadan önce, her iki Arduino'ya da NRF24L01 modüllerini doğru bir şekilde bağladığınızdan emin olun.
+Ayrıca, her iki Arduinonun da kodlarındaki adres (address) değerinin aynı olduğundan emin olun. Bu adresler,
+verici ve alıcı arasında aynı olmalıdır.
+
+NOT: Devre şemasındaki doğru olmalıdır, aksi takdirde hata çıkaracaktır.
+NOT: nRF24L01(+) kütüphanesinin indirilmesi gerelidir. Kütühane depoda eklidir.
+
+### English ###
+
+For example, a cost-effective and popular wireless communication module such as the NRF24L01 can be chosen for this purpose.
+The NRF24L01 is compatible with Arduino and communicates using the SPI protocol.
+
+The above example enables wireless communication between two Arduinos using the "NRF24L01" library.
+Transmitter Arduino #1, "Hello Arduino #2!" sends its message to Receiver Arduino #2 every second.
+The receiver Arduino #2 receives the message and prints it to the Serial Monitor.
+
+Before running the code, make sure you have correctly connected the NRF24L01 modules to both Arduinos.
+Also, make sure that the address value in the codes of both Arduinos is the same. These addresses
+must be the same between transmitter and receiver.
+
+NOTE: The circuit diagram must be correct, otherwise it will generate an error.
+NOTE: Downloading the nRF24L01(+) library is required. The library is attached to the repository.
