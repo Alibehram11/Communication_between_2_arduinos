@@ -14,6 +14,8 @@ verici ve alıcı arasında aynı olmalıdır.
 NOT: Devre şemasındaki doğru olmalıdır, aksi takdirde hata çıkaracaktır.
 NOT: nRF24L01(+) kütüphanesinin indirilmesi gerelidir. Kütühane depoda eklidir.
 
+Kütüphaneyi indirdiğim site : https://www.arduinolibraries.info/libraries/rf24
+
 ### English ###
 
 For example, a cost-effective and popular wireless communication module such as the NRF24L01 can be chosen for this purpose.
@@ -29,3 +31,5 @@ must be the same between transmitter and receiver.
 
 NOTE: The circuit diagram must be correct, otherwise it will generate an error.
 NOTE: Downloading the nRF24L01(+) library is required. The library is attached to the repository.
+
+The site where I downloaded the library: https://www.arduinolibraries.info/libraries/rf24
